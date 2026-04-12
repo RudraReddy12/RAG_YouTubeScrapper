@@ -24,18 +24,18 @@ This project uses a **Retrieval-Augmented Generation (RAG)** pipeline to:
 ---
 
 ## 🏗️ Architecture
-YouTube URL
-↓
-Transcript Extraction (YoutubeLoader)
-↓
-Text Chunking (RecursiveCharacterTextSplitter)
-↓
-RAG Summarization (LangChain + Gemini)
-↓
-Article Generation
-↓
-Frontend Code Generation (HTML/CSS/JS)
-↓
+YouTube URL  
+↓  
+Transcript Extraction (YoutubeLoader)  
+↓  
+Text Chunking (RecursiveCharacterTextSplitter)  
+↓  
+RAG Summarization (LangChain + Gemini)  
+↓  
+Article Generation  
+↓  
+Frontend Code Generation (HTML/CSS/JS)  
+↓  
 Downloadable Website (ZIP)
 
 
