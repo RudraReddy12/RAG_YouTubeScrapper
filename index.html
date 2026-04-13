@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A technical guide on DORA compliance frameworks for financial institutions.">
+    <title>Expanded Technical Framework for DORA Compliance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <a href="#" class="logo">TechInsights</a>
+            <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+        </div>
+    </header>
+
+    <main class="container article-container">
+        <article>
+            <header class="article-header">
+                <h1>Expanded Technical Framework for DORA Compliance</h1>
+                <p class="meta">Published by Security Expert • 5 min read</p>
+            </header>
+
+            <div class="article-content">
+                <p>Building upon the foundational risk management requirements, the Digital Operational Resilience Act (DORA) mandates specific technical obligations regarding third-party oversight, advanced testing, and collaborative intelligence.</p>
+                
+                <hr>
+
+                <h3>4. ICT Third-Party Risk Management</h3>
+                <p>Financial entities must maintain rigorous oversight of ICT service providers to ensure the security of the entire supply chain.</p>
+                <ul>
+                    <li><strong>Contractual Transparency:</strong> Contracts must include comprehensive service-level descriptions (SLDs) and explicit identification of data processing locations.</li>
+                    <li><strong>Monitoring Accessibility:</strong> Entities must ensure that contracts grant them full monitoring and audit rights, enabling constant oversight of the provider’s operational status.</li>
+                    <li><strong>Union Oversight:</strong> Critical third-party providers are subject to a unified EU-level oversight framework to harmonize supervisory approaches across member states.</li>
+                </ul>
+
+                <h3>5. Advanced Resilience Testing</h3>
+                <p>Testing requirements are proportionate to an entity’s size, business profile, and risk exposure.</p>
+                <ul>
+                    <li><strong>TLTP (Threat-Led Penetration Testing):</strong> Entities with higher risk profiles must conduct "Red/Purple Teaming" assessments. These tests simulate real-world cyberattacks to validate the effectiveness of defensive controls.</li>
+                    <li><strong>Remediation Lifecycle:</strong> Any deficiencies or gaps identified during testing must be systematically documented and mitigated through counteractive measures.</li>
+                </ul>
+
+                <h3>6. Information Sharing and Collaboration</h3>
+                <p>DORA promotes the exchange of cyber threat intelligence among financial entities to bolster collective defense.</p>
+                <ul>
+                    <li><strong>Trusted Communities:</strong> Entities are encouraged to share information regarding threat vectors, detection techniques, and mitigation strategies.</li>
+                    <li><strong>Confidentiality:</strong> Intelligence sharing must occur via arrangements that protect the sensitive nature of proprietary and customer-related data.</li>
+                </ul>
+
+                <hr>
+
+                <h3>DORA Implementation Timeline</h3>
+                <div class="table-wrapper">
+                    <table>
+                        <thead><tr><th>Milestone</th><th>Date</th><th>Status</th></tr></thead>
+                        <tbody>
+                            <tr><td>Proposal Publication</td><td>Sept 2020</td><td>Completed</td></tr>
+                            <tr><td>Legislative Negotiations</td><td>2021–2022</td><td>Completed</td></tr>
+                            <tr><td>Entry into Force</td><td>Q1 2023</td><td>Completed</td></tr>
+                            <tr><td>RTS/ITS Finalization</td><td>2024</td><td>Two tranches (Jan/July)</td></tr>
+                            <tr><td><strong>Full Enforcement</strong></td><td><strong>Jan 17, 2025</strong></td><td><strong>Compliance Deadline</strong></td></tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <h3>Technical Implementation: Third-Party Monitoring Schema</h3>
+                <p>To comply with the requirement for monitoring ICT third-party service providers, organizations should structure their vendor management data to include critical location and service metadata:</p>
+                <pre><code>{
+  "vendor_id": "ICT-PROV-9982",
+  "service_level_agreement": {
+    "availability_target": "99.99%",
+    "data_processing_locations": ["DE", "FR", "IE"],
+    "monitoring_access_granted": true
+  },
+  "risk_assessment": {
+    "criticality_rating": "high",
+    "last_audit_date": "2024-11-01",
+    "mitigation_plan_active": false
+  }
+}</code></pre>
+
+                <h3>Summary</h3>
+                <p>DORA extends beyond internal governance by mandating strict third-party oversight, high-fidelity threat-led penetration testing, and industry-wide intelligence sharing. As of January 17, 2025, financial institutions must ensure their risk management frameworks are fully aligned with these technical requirements to avoid significant regulatory penalties.</p>
+            </div>
+        </article>
+    </main>
+</body>
+</html>
