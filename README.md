@@ -47,7 +47,7 @@ Downloadable Website (ZIP)
 - **Frontend/UI:** Streamlit  
 - **LLM:** Google Gemini
 - **Framework:** LangChain  
-- **Data Source:** YouTube Transcript Loader  
+- **Data Source:** Transcript that is extracted from YouTube video  
 - **Environment:** Python  
 
 ---
