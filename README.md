@@ -45,7 +45,7 @@ Downloadable Website (ZIP)
 ##  Tech Stack
 
 - **Frontend/UI:** Streamlit  
-- **LLM:** Google Gemini (via LangChain)  
+- **LLM:** Google Gemini
 - **Framework:** LangChain  
 - **Data Source:** YouTube Transcript Loader  
 - **Environment:** Python  
