@@ -9,21 +9,21 @@ This project uses a **Retrieval-Augmented Generation (RAG)** pipeline to:
 
 ---
 
-## 🚀 Features
+##  Features
 
 - 🔗 Input any YouTube video URL  
-- 🧠 Smart summarization (handles both short & long videos)  
-- 📝 Converts transcript → clean technical article  
-- 🌐 Generates production-ready website:
+-  Smart summarization (handles both short & long videos)  
+-  Converts transcript → clean technical article  
+-  Generates production-ready website:
   - HTML
   - CSS
   - JavaScript 
-- 📦 Download website as ZIP  
-- 👀 Live preview inside Streamlit  
+-  Download website as ZIP  
+-  Live preview inside Streamlit  
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 YouTube URL  
 ↓  
 Transcript Extraction (YoutubeLoader)  
@@ -42,7 +42,7 @@ Downloadable Website (ZIP)
 
 ---
 
-## 🧠 Tech Stack
+##  Tech Stack
 
 - **Frontend/UI:** Streamlit  
 - **LLM:** Google Gemini (via LangChain)  
